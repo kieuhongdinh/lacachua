@@ -191,5 +191,4 @@ def predict_image(img_path):
     print("Dự đoán:", CLASS_NAMES[idx])
     print("Độ tin cậy:", round(confidence * 100, 2), "%")
 
-# Ví dụ:
 # predict_image("test_leaf.jpg")
