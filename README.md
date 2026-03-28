@@ -125,7 +125,7 @@ plt.plot(history.history["val_accuracy"], label="Validation Accuracy")
 plt.legend()
 plt.title("Accuracy")
 
-plt.subplot(1,2,2
+plt.subplot(1,2,2)
 plt.plot(history.history["loss"], label="Train Loss")
 plt.plot(history.history["val_loss"], label="Validation Loss")
 plt.legend()
