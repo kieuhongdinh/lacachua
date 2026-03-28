@@ -1,7 +1,5 @@
-# lacachua
 # ==============================
 # TOMATO LEAF DISEASE RECOGNITION
-# FULL PROJECT - ONE FILE
 # ==============================
 
 import tensorflow as tf
@@ -190,5 +188,3 @@ def predict_image(img_path):
     print("\nẢnh:", img_path)
     print("Dự đoán:", CLASS_NAMES[idx])
     print("Độ tin cậy:", round(confidence * 100, 2), "%")
-
-# predict_image("test_leaf.jpg")
